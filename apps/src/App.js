@@ -8,7 +8,7 @@ const App = () => {
   return (
     <Switch>
       <Route path="">
-        <LandingPageLayout>
+        <LandingPageLayout heading="Smoky city">
           <HomePage />
         </LandingPageLayout>
       </Route>
