@@ -1,5 +1,7 @@
 import React from "react";
 import Photo from "./../../assets/hollywood.jpeg";
+import CoinbaseCommerceButton from "react-coinbase-commerce";
+import "react-coinbase-commerce/dist/coinbase-commerce-button.css";
 const Cards = ({ ...otherProps }) => {
   return (
     <div className="flex flex-row flex-wrap py-14 justify-center">
@@ -61,6 +63,14 @@ const Cards = ({ ...otherProps }) => {
             </ul>
           </div>
         </div>
+        <CoinbaseCommerceButton
+          className="bg-black text-base text-white py-4 px-8 mt-4"
+          checkoutId={"62bfd18c-0a38-40c5-b8c6-ca34c97eb364"}
+        />
+        <CoinbaseCommerceButton
+          className="bg-black text-base text-white py-4 px-8 mt-4"
+          checkoutId={"2a67040b-4ee5-434c-90a8-9b65c148e308"}
+        />
       </div>
     </div>
   );
